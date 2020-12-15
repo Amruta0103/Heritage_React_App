@@ -4,30 +4,61 @@ import "./styles.css";
 const mylist = {
   HOME: [
     {
-      head: "FORTS OF MAHARASHTRA",
+      head:
+        " Hello !! And Welcome !! Everyone To This Space Where We Help You Beautify Your Spaces !!",
       info:
-        "There are nearly 350 forts in Maharashtra, so it is said that forts are the glory of Maharashtra. Most of these forts are associated with the great Maratha ruler, Chhatrapati Shivaji Maharaj. It is believed that he developed as many as thirteen forts.Vijaydurg fort is regarded to be the best sea fort developed by Shivaji. Every fort has temple inside that was a powerful inspiration to the Maratha fighters. 510 km away from Mumbai is the famous Sindhudurg and Vijaydurg forts. This twin fort was constructed with the special guidelines from Shivaji. This fort is famous for its serene environmental beauty and its historic importance.Shivner fort is the fort where Shivaji was born. This fort is nearly about 120 km from Pune. Pratapgad fort reminds the fiery battle fought between Shivaji and Afzal Khan. One must see the 300-year old fine architectural fort of Murud - Janjira fort, Lohagad and Visapur Forts, Harishchandragad Fort, Arnala Fort and Ajinkyatara Fort are ideal for trekking. Adventure lovers must visit these forts."
+        "There are a plenty of options to grow various plants,herbs and creepers inside the home spaces, balconies and kitchen gardens. You can use them to fill in the empty spaces and beautify. Here are a few suggestions from us to help you begin eith your own beautiful spaces. HAPPY PLANTING :-) "
     }
   ],
-  SINHAGAD: [
+  FLORAL: [
     {
-      head: "SINHAGAD",
+      head: "ROSE",
       info:
-        "Sinhagad is a hill fortress located at around 35 km southwest of the city of Pune, India. Some of the information available at this fort suggests that the fort could have been built 2000 years ago. The caves and the carvings in the Kaundinyeshwar temple stand as proofs for the same. Previously known as Kondhana, the fort had been the site of many battles, most notably the Battle of Sinhagad in 1670. Perched on an isolated cliff of the Bhuleswar range in the Sahyadri Mountains, the fort is situated on a hill about 760 metres above ground and 1,312 metres above mean sea level.The Sinhagad (Lion's Fort) was strategically built to provide natural protection due to its very steep slopes. The walls and bastions were constructed only at key places. There are two gates to enter the fort, the Kalyan Darwaza and Pune Darwaza which are positioned at the south east and north-east ends respectively. The fort was also strategically located at the centre of a string of other Maratha Empire forts such as Rajgad Fort, Purandar Fort and Torna Fort."
+        "The plant flower that fascinates everyone is no doubt the first in this list. It is a very easily available and easy to grow plant in your balcony."
+    },
+    {
+      head: "LILY",
+      info:
+        "A pleasant floral plant that mesmerises everyone with its awesome looks. It is also easily available and easy to grow."
+    },
+    {
+      head: "HIBISCUS",
+      info:
+        "This red flower is just awesome and doesn't require any extra attention and grows perfectly with basic gardening skills."
+    },
+    {
+      head: "PERIWINKLE",
+      info:
+        "A small and simple flower that catches your eye easily. Also an easily available plant and easy to grow in your home."
     }
   ],
-  RAIGAD: [
+  HERBS: [
     {
-      head: "RAIGAD",
+      head: "TULSI",
       info:
-        "Raigad is a hill fort situated in Mahad, Raigad district of Maharashtra, India. Many constructions and structures that we see on raigad were built by Chhatrapati Shivaji when he made it his capital in 1674 when he was crowned the King of the Maratha Kingdom which later developed into the Maratha Empire, eventually covering much of western and central India. The fort rises 820 metres (2,700 ft) above the sea level and is located in the Sahyadri mountain range. There are approximately 1737 steps leading to the fort.The Raigad Fort was built by Shivaji and the chief architect/engineer was Hiroji Indulkar. The main palace was constructed using wood, of which only the base pillars remain. The main fort ruins consist of the queen's quarters, six chambers, with each chamber having its own private restroom. In addition, ruins of three watch towers can be seen directly in front of the palace grounds out of which only two remain as the third one was destroyed during a bombardment. The Raigad Fort also has ruins of a market which was accessible to horseback riders. The fort also overlooks an artificial lake known as the Ganga Sagar Lake. The only main pathway to the fort passes through the 'Maha Darwaja' (Huge Door) which was previously closed at sunset. The Maha Darwaja has two huge bastions on both sides of the door which are approximately 65–70 feet in height. The top of the fort is 600 ft above this door. The King's Darbar, inside the Raigad Fort has a replica of the original throne that faces the main doorway called the Nagarkhana Darwaja. This enclosure had been acoustically designed to aid hearing from the doorway to the throne. A secondary entrance, called the Mena Darwaja, was supposedly the private entrance for the royal ladies of the fort that lead to the queen's quarters. The convoy of the king and the king himself used the Palkhi Darwaja. To the right of Palkhi Darwaja, is a row of three dark and deep chambers. Historians believe that these were the granaries for the fort. From the fort, one can view the execution point called Takmak Tok, a cliff from which sentenced prisoners were thrown to their death. This area has been fenced off."
+        "It is a very common plant that we find in the Indian households. There are a numerous benefits of this plant and surely it's the one that everyone should have in their kitchen-gardens."
+    },
+    {
+      head: "MINT",
+      info:
+        "Commonly known as Pudina is an important part of Indian cuisine that elevates the taste-buds of everyone. It is also easily available and easy to grow plant in the houses."
+    },
+    {
+      head: "AJWAIN",
+      info:
+        "A plant that is very beneficial for health and is one of plants to have on the checklist for kitchen-gardens."
     }
   ],
-  AJINKYATARA: [
+  CREEPERS: [
     {
-      head: "AJINKYATARA",
+      head: "MADHU-MALATI",
       info:
-        "Ajinkyatara ( meaning 'The Impregnable Star') is a fort on one of the seven mountains surrounding the city of Satara in the Sahayadri Mountains of Maharashtra, India. It is a 16th-century fort. The fort is located at Ajinkyatara Mountain, which is 3,300 feet high. After the death of Shivaji Maharaj, Aurangzeb conquered Satara fort, which was later won by Parshuram Pratinidhi in 1706. In 1708, Shahu Maharaj was crowned at this fort."
+        "A creeper with cute bunches of small flowers to make your mood fresh and happy. It is very easily available and easy to grow in your home spaces."
+    },
+    {
+      head: "MONEY PLANT",
+      info:
+        "A very common and easily available plant to have in your homes. It is a best option for decorating empty spaces in the home."
     }
   ]
 };
@@ -40,13 +71,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1
-        style={{ color: "rgb(228, 151, 36)", margin: "0px", padding: "1rem" }}
-      >
-        Heritage
+      <h1 style={{ color: "BLACK", margin: "0px", padding: "1rem" }}>
+        PLANT PARADISE
       </h1>
       <h3 style={{ color: "white", margin: "0px" }}>
-        -- FORTS OF MAHARASHTA --
+        BEAUTIFY YOUR SPACES WITH NATURE
       </h3>
       <div className="main-list-box">
         {Object.keys(mylist).map((type) => (
@@ -60,12 +89,27 @@ export default function App() {
         ))}
       </div>
       <div style={{ textAlign: "center" }}>
-        {mylist[selectedType].map((item) => (
-          <div className="head-font head">{item.head}</div>
-        ))}
-        {mylist[selectedType].map((item) => (
-          <div className="info-font info">{item.info}</div>
-        ))}
+        <ul style={{ paddingInlineStart: "0" }}>
+          {mylist[selectedType].map((item) => (
+            <li
+              key={item.head}
+              style={{
+                textAlign: "center",
+                color: "white",
+                listStyle: "none",
+                padding: "1rem",
+                margin: "auto",
+                border: "1px solid",
+                borderRadius: "0.5rem",
+                width: "700px"
+              }}
+            >
+              {" "}
+              <div className="head-font">{item.head}</div>
+              <div className="info-font">{item.info}</div>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
